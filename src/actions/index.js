@@ -159,35 +159,3 @@ export const setVerifyCero = (binindex, floorindex, itemIndex) => ({
   floorindex,
   itemIndex,
 });
-
-export const cargarInventario = () => {
-  return (dispatch) => {
-    axios.get('https://electrostoregroup.com/Electrostore/pruebaWo.php')
-      .then(({ data }) => dispatch(setCargarInventario(data)))
-      .catch((error) => dispatch(setError(error)));
-  };
-};
-
-export const cargarActions = () => {
-  return (dispatch) => {
-    axios.get('https://electrostoregroup.com/Electrostore/accionesInventario.php')
-      .then(({ data }) => dispatch(setCargarActions(data)))
-      .catch((error) => dispatch(setError(error)));
-  };
-};
-
-export const cargarLists = () => {
-  return (dispatch) => {
-    axios.get('https://electrostoregroup.com/Electrostore/shippingWo.php')
-      .then(({ data }) => dispatch(setCargarLists(data)))
-      .catch((error) => dispatch(setError(error)));
-  };
-};
-
-// export const cargarOrder = () => {
-//   return (dispatch) => {
-//     axios.get('https://electrostoregroup.com/Electrostore/shippingWo.php')
-//       .then(({ data }) => dispatch(setCargarOrder(data)))
-//       .catch((error) => dispatch(setError(error)));
-//   };
-// };

@@ -20,7 +20,7 @@ const Login = (props) => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    if (form.email === 'admin@electrostoresl.com' && form.password === 'JJatwl2020') {
+    if (form.email === 'Prueba Usuario' && form.password === 'prueba123') {
       props.loginRequest(form);
     }
   };
