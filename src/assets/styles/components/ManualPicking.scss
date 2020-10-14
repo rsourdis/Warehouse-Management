@@ -1,0 +1,346 @@
+@import "../Vars.scss";
+
+.picking__icon-green{
+  color: $other6-color
+}
+.picking__icon-red{
+  color: $other7-color
+}
+
+.manualProcess__container{
+  width: 95%;
+  max-width: 500px;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 5px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 1px 3px 12px rgba(112, 112, 112, 0.462);
+}
+
+.manualitem__container{
+  box-shadow: 1px 2px 6px rgba(112, 112, 112, 0.462);
+  margin: 5px auto;
+  width: 100%;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: white;
+}
+.manualpicking__details-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.manualPicking_title{
+  font-size: 20px;
+  font-weight: 700;
+}
+.manualPicking_bin{
+  font-size: 14px;
+  font-weight: 700;
+  margin: 5px auto;
+  text-align: center;
+}
+
+.manualPicking_code{
+  font-size: 12px;
+  font-weight: 400;
+  margin: 0px auto 5px auto;
+  text-align: center;
+}
+
+.manualPicking_name{
+  font-size: 12px;
+  font-weight: 500;
+  margin: 5px auto;
+  text-align: center;
+  width: 100%;
+}
+
+.manualProcess__product-qty{
+  font-size: 12px;
+  font-weight: 400;
+  margin: 5px auto;
+  text-align: center;
+}
+
+.manualPicking__form{
+  width: 100%;
+  margin: 10px auto 0px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.manualPicking_form-input{
+  text-align: center;
+  font-size: 16px;
+  width: 40%;
+  margin: 0px auto 10px auto;
+  padding: 3px 5px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 1px 3px 12px rgba(112, 112, 112, 0.462);
+}
+.manualPicking-btns-container{
+  margin: 5px auto;
+  display: flex;
+  width: 80%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.manualPicking_button-pick-remove{
+  background-color: $other2-color;
+  color: white;
+  font-weight: 600;
+  width: 90px;
+  font-size: 16px;
+  padding: 7px 15px;
+  border-radius: 5px;
+  border: none;
+  margin: 0px auto;
+  box-shadow: 1px 3px 12px rgba(112, 112, 112, 0.462);
+}
+.manualPicking_button-pick-add{
+  background-color: #4BB74D;
+  color: white;
+  font-weight: 600;
+  width: 90px;
+  font-size: 16px;
+  padding: 7px 15px;
+  border-radius: 5px;
+  border: none;
+  margin: 0px auto;
+  box-shadow: 1px 3px 12px rgba(112, 112, 112, 0.462);
+}
+
+@media screen and (max-width: 694px){
+  .manualProcess__container{
+    width: 95%;
+    max-width: 500px;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 5px;
+    border-radius: 15px;
+  }
+  
+  .manualitem__container{
+    box-shadow: 1px 2px 6px rgba(112, 112, 112, 0.462);
+    margin: 5px auto;
+    width: 100%;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: white;
+  }
+  .manualpicking__details-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  
+  .manualPicking_title{
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .manualPicking_bin{
+    font-size: 14px;
+    font-weight: 700;
+    margin: 5px auto;
+    text-align: center;
+  }
+  
+  .manualPicking_code{
+    font-size: 12px;
+    font-weight: 400;
+    margin: 0px auto 5px auto;
+    text-align: center;
+  }
+  
+  .manualPicking_name{
+    font-size: 12px;
+    font-weight: 500;
+    margin: 5px auto;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .manualProcess__product-qty{
+    font-size: 12px;
+    font-weight: 400;
+    margin: 5px auto;
+    text-align: center;
+  }
+  
+  .manualPicking__form{
+    width: 100%;
+    margin: 10px auto 0px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .manualPicking_form-input{
+    font-size: 16px;
+    width: 40%;
+    margin: 0px auto 10px auto;
+    padding: 3px 5px;
+    border-radius: 5px;
+    box-shadow: 1px 3px 12px rgba(112, 112, 112, 0.462);
+    }
+  .manualPicking-btns-container{
+    margin: 5px auto;
+    display: flex;
+    width: 80%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .manualPicking_button-pick-remove{
+    background-color: $other2-color;
+    color: white;
+    font-weight: 600;
+    width: 90px;
+    font-size: 16px;
+    padding: 7px 15px;
+    border-radius: 5px;
+    border: none;
+    margin: 0px auto;
+    box-shadow: 1px 3px 12px rgba(112, 112, 112, 0.462);
+  }
+  .manualPicking_button-pick-add{
+    background-color: #4BB74D;
+    color: white;
+    font-weight: 600;
+    width: 90px;
+    font-size: 16px;
+    padding: 7px 15px;
+    border-radius: 5px;
+    border: none;
+    margin: 0px auto;
+    box-shadow: 1px 3px 12px rgba(112, 112, 112, 0.462);  }
+  }
+
+
+
+@media screen and (max-width: 414px){
+.manualProcess__container{
+  width: 95%;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 5px;
+  border-radius: 15px;
+}
+
+.manualitem__container{
+  box-shadow: 1px 2px 6px rgba(112, 112, 112, 0.462);
+  margin: 5px auto;
+  width: 100%;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: white;
+}
+.manualpicking__details-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.manualPicking_title{
+  font-size: 20px;
+  font-weight: 700;
+}
+.manualPicking_bin{
+  font-size: 14px;
+  font-weight: 700;
+  margin: 5px auto;
+  text-align: center;
+}
+
+.manualPicking_code{
+  font-size: 12px;
+  font-weight: 400;
+  margin: 0px auto 5px auto;
+  text-align: center;
+}
+
+.manualPicking_name{
+  font-size: 12px;
+  font-weight: 500;
+  margin: 5px auto;
+  text-align: center;
+  width: 100%;
+}
+
+.manualProcess__product-qty{
+  font-size: 12px;
+  font-weight: 400;
+  margin: 5px auto;
+  text-align: center;
+}
+
+.manualPicking__form{
+  width: 100%;
+  margin: 10px auto 0px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.manualPicking_form-input{
+  font-size: 16px;
+  width: 40%;
+  margin: 0px auto 10px auto;
+  padding: 3px 5px;
+  border-radius: 5px;
+  box-shadow: 1px 3px 12px rgba(112, 112, 112, 0.462);
+}
+.manualPicking-btns-container{
+  margin: 5px auto;
+  display: flex;
+  width: 80%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.manualPicking_button-pick-remove{
+  background-color: $other2-color;
+  color: white;
+  font-weight: 600;
+  width: 90px;
+  font-size: 16px;
+  padding: 7px 15px;
+  border-radius: 5px;
+  border: none;
+  margin: 0px auto;
+  box-shadow: 1px 3px 12px rgba(112, 112, 112, 0.462);
+}
+.manualPicking_button-pick-add{
+  background-color: #4BB74D;
+  color: white;
+  font-weight: 600;
+  width: 90px;
+  font-size: 16px;
+  padding: 7px 15px;
+  border-radius: 5px;
+  border: none;
+  margin: 0px auto;
+  box-shadow: 1px 3px 12px rgba(112, 112, 112, 0.462);
+}
+}

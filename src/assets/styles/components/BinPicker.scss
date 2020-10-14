@@ -1,0 +1,233 @@
+@import "../Vars.scss";
+
+.binPicker_floorlayout{
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  align-items: flex-start;
+  background-color: #f4f4f5;
+  border: 1px solid #585858;
+  position: relative;
+  border-radius: 0 0 78px 0;
+}
+.binPicker_top-A{
+  width: 71px;
+  background-image: url('../../static/BinTop.png');
+  background-repeat: no-repeat;
+  height: 25px;
+  background-size: cover;
+  border: none;
+}
+.binPicker_top-B{
+  width: 134px;
+  background-image: url('../../static/BinTop.png');
+  background-repeat: no-repeat;
+  height: 25px;
+  background-size: cover;
+  border: none;
+}
+.binPicker_top{
+  width: 100%;
+  background-image: url('../../static/BinTop.png');
+  background-repeat: no-repeat;
+  height: 25px;
+  background-size: cover;
+  border: none;
+}
+.binPicker_Vertical__A{
+  width: 90%;
+  height: 100px;
+  margin-top: 30px;
+  background-image: url('../../static/BinTopVertical.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: none;
+}
+
+.binPicker_Vertical__B{
+  width: 30px;
+  height: 55px;
+  margin-top: 7px;
+  background-image: url('../../static/BinTopVertical.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: none;
+}
+
+.binPicker_floorPallet_top{
+  width: 100%;
+  background-image: url('../../static/FloorPallet.png');
+  background-repeat: no-repeat;
+  height: 25px;
+  background-size: cover;
+  border: none;
+}
+
+.binPicker_Y_top{
+  width: 25%;
+  height: 25px;
+  background-image: url('../../static/BinTop.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: none;
+}
+#binButton:hover {
+  color: $other2-color;
+  font-weight: 800;
+  font-size: 16px;
+}
+#binButton:active {
+  color: $other2-color;
+  font-weight: 800;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 694px){
+  .binPicker_floorlayout{
+    margin: 30px auto 0px auto;
+    display: flex;
+    flex-direction: column;
+    width: 414px;
+    align-items: flex-start;
+    background-color: #f4f4f5;
+    border: 1px solid #585858;
+    position: relative;
+    border-radius: 0 0 78px 0;
+  }
+  .binPicker_top-A{
+    width: 38px;
+    background-image: url('../../static/BinTop.png');
+    background-repeat: no-repeat;
+    height: 25px;
+    background-size: cover;
+    border: none;
+  }
+  .binPicker_top-B{
+    width: 76px;
+    background-image: url('../../static/BinTop.png');
+    background-repeat: no-repeat;
+    height: 25px;
+    background-size: cover;
+    border: none;
+  }
+  .binPicker_top{
+    width: 100%;
+    background-image: url('../../static/BinTop.png');
+    background-repeat: no-repeat;
+    height: 25px;
+    background-size: cover;
+    border: none;
+  }
+  .binPicker_Vertical__A{
+    width: 90%;
+    height: 100px;
+    margin-top: 30px;
+    background-image: url('../../static/BinTopVertical.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+  }
+  
+  .binPicker_Vertical__B{
+    width: 30px;
+    height: 55px;
+    margin-top: 7px;
+    background-image: url('../../static/BinTopVertical.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+  }
+  
+  .binPicker_floorPallet_top{
+    width: 100%;
+    background-image: url('../../static/FloorPallet.png');
+    background-repeat: no-repeat;
+    height: 25px;
+    background-size: cover;
+    border: none;
+  }
+  
+  .binPicker_Y_top{
+    width: 25%;
+    height: 25px;
+    background-image: url('../../static/BinTop.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+  }
+}
+
+@media screen and (max-width: 414px){
+  .binPicker_floorlayout{
+    margin: 30px auto 70px auto;
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    align-items: flex-start;
+    background-color: #f4f4f5;
+    border: 1px solid #585858;
+    position: relative;
+  }
+  .binPicker_top-A{
+    width: 38px;
+    background-image: url('../../static/BinTop.png');
+    background-repeat: no-repeat;
+    height: 25px;
+    background-size: cover;
+    border: none;
+  }
+  .binPicker_top-B{
+    width: 76px;
+    background-image: url('../../static/BinTop.png');
+    background-repeat: no-repeat;
+    height: 25px;
+    background-size: cover;
+    border: none;
+  }
+  .binPicker_top{
+    width: 100%;
+    background-image: url('../../static/BinTop.png');
+    background-repeat: no-repeat;
+    height: 25px;
+    background-size: cover;
+    border: none;
+  }
+  .binPicker_Vertical__A{
+    width: 90%;
+    height: 100px;
+    margin-top: 30px;
+    background-image: url('../../static/BinTopVertical.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+  }
+  
+  .binPicker_Vertical__B{
+    width: 30px;
+    height: 55px;
+    margin-top: 7px;
+    background-image: url('../../static/BinTopVertical.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+  }
+  
+  .binPicker_floorPallet_top{
+    width: 100%;
+    background-image: url('../../static/FloorPallet.png');
+    background-repeat: no-repeat;
+    height: 25px;
+    background-size: cover;
+    border: none;
+  }
+  
+  .binPicker_Y_top{
+    width: 25%;
+    height: 25px;
+    background-image: url('../../static/BinTop.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+  }
+}

@@ -1,0 +1,193 @@
+@import "../Vars.scss";
+
+
+.logCard__container-details{
+  width: 100%;
+}
+
+.logCard__container{
+  width: 95%;
+  max-width: 700px;
+  min-height: 50px;
+  margin: 3px auto;
+  padding: 5px 10px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 1px 3px 12px rgba(112, 112, 112, 0.462);
+  background-color: white;
+  }
+  
+  .logCard__container-first{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+  }
+  
+  .logCard__log-action{
+    font-size: 14px;
+    font-weight: 500;
+    width: 20%;
+    text-align: center;
+    margin-right: 5px;
+  }
+
+  .logCard__log-name{
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  .logCard__container-second{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+  }
+  .logCard__log-items{
+    font-size: 12px;
+    margin-right: 10px;
+  }
+  .logCard__log-user{
+    font-size: 12px;
+    margin-right: 10px;
+  }
+  .logCard__log-moment{
+    font-size: 12px;
+    margin-right: 10px;
+  }
+  .logCard__log-qty{
+    font-size: 12px;
+    font-weight: 500;
+  }
+  
+  .logCard__container-third{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+  }
+
+
+@media screen and (max-width: 694px){
+  .logCard__container{
+    width: 95%;
+    max-width: 600px;
+    min-height: 50px;
+    }
+    
+    .logCard__container-first{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-start;
+      width: 100%;
+    }
+    
+    .logCard__log-action{
+      font-size: 14px;
+      font-weight: 500;
+      width: 20%;
+      text-align: center;
+      margin-right: 5px;
+    }
+
+    .logCard__log-name{
+      font-size: 12px;
+      font-weight: 500;
+    }
+    
+    .logCard__container-second{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-start;
+      width: 100%;
+    }
+    .logCard__log-items{
+      font-size: 12px;
+    margin-right: 10px;
+    }
+    .logCard__log-user{
+      font-size: 12px;
+    margin-right: 10px;
+    }
+    .logCard__log-moment{
+      font-size: 12px;
+    margin-right: 10px;
+    }
+    
+    .logCard__container-third{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-end;
+      width: 100%;
+    }   
+}
+
+@media screen and (max-width: 414px){
+  .logCard__container{
+    width: 95%;
+    max-width: 500px;
+    min-height: 50px;
+    }
+    
+    .logCard__container-first{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-start;
+      width: 100%;
+    }
+    
+    .logCard__log-action{
+      font-size: 14px;
+      font-weight: 500;
+      width: 20%;
+      text-align: center;
+      margin-right: 5px;
+    }
+
+    .logCard__log-name{
+      font-size: 12px;
+      font-weight: 500;
+    }
+    
+    .logCard__container-second{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-start;
+      width: 100%;
+    }
+    .logCard__log-items{
+      font-size: 12px;
+    margin-right: 10px;
+    }
+    .logCard__log-user{
+      font-size: 12px;
+    margin-right: 10px;
+    }
+    .logCard__log-moment{
+      font-size: 12px;
+    margin-right: 10px;
+    }
+    .logCard__log-qty{
+      font-size: 12px;
+    }
+    
+    .logCard__container-third{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-end;
+      width: 100%;
+    }
+
+}

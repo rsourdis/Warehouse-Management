@@ -1,0 +1,105 @@
+@import "../Vars.scss";
+
+  .main {
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: fit-content;
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .main__title {
+    color: white;
+    font-size: 25px;
+    margin: 20px auto;
+  }
+
+  .search__container{
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.323);
+    margin: 20px auto;
+    width: 100%;
+  }
+
+  .search__icon{
+    width: 30px;
+    padding: 5px;
+    background-color: rgba(71, 139, 202, 0.1);
+    color: rgb(89, 89, 89);
+  }
+  .input__search {
+    border-radius: 25px;
+    font-family: $theme-font;
+    font-size: 16px;
+    height: 35px;
+    outline: none;
+    width: 100%;
+    padding: 0px 5px;
+    background-color: rgba(71, 139, 202, 0);;
+    border: none;
+    color: $main2-color;
+    margin-bottom: 0;
+  }
+
+  .input__search::placeholder{
+    color: $main2-color;
+    opacity: 50%;
+  }
+
+  .btn-clearSearch{
+    padding: 0 15px;
+    background-color: $main2-color;
+    color: white;
+    border: none;
+    border-radius: 0 10px 10px 0;
+    font-size: 16px;
+  }
+  @media screen and (max-width: 768px){
+    .main {
+      height: 60px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+    
+    .main__title {
+      display: none;
+    }
+    
+    .search__container{
+      display: flex;
+      text-align: left;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.323);
+      margin: 0px auto;
+      height: 35px;
+      width: 90%;
+    }
+
+    .search__icon{
+      width: 30px;
+      padding: 5px;
+      background-color: rgba(71, 139, 202, 0.1);
+      color: rgb(89, 89, 89);
+    }
+    .input__search {
+      border-radius: 25px;
+      font-family: $theme-font;
+      font-size: 16px;
+      outline: none;
+      width: 100%;
+      padding: 0px 5px;
+      background-color: rgba(71, 139, 202, 0);;
+      border: none;
+      color: $main2-color;
+      margin-bottom: 0;
+      height: 35px;
+    }
+}

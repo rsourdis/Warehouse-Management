@@ -1,0 +1,134 @@
+@import "./Vars.scss";
+@import "./Media.scss";
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: $theme-font;
+    background-color: $shade-color;
+    overscroll-behavior: none;
+    overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+    width: 2px;
+  }
+  
+body::-webkit-scrollbar-track {
+    background: rgba(231, 231, 231, 0.61);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.alert-message{
+    color: $secondary2-color;
+    padding-left: 20px;
+}
+
+.gobackbtn__reservar-container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 35px;
+}
+.gobackbtn__reservar {
+    color: $main2-color;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.gobackbtn-container{
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 8px auto 20px auto;
+    width: 100%;
+    height: fit-content;
+    z-index: 1;
+}
+.gobackbtn {
+    position: absolute;
+    left: 30px;
+    color: $main2-color;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.titulos__varios{
+    display: flex;
+    flex-direction: column;
+}
+.titulo__principal{
+    margin: 10px auto 0px auto;
+    font-weight: 700;
+    text-align: center;
+    color: $main2-color;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    text-shadow: 0px 0px 3px rgba(245, 245, 245, 0.445);
+}
+
+.searchorder__logo{
+    background-image: url('../static/AmazonLogo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 51px;
+    border: none;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.323);
+    position: absolute;
+    right: 15px;
+    border-radius: 10px;
+    background-color: white;
+  }
+
+.displayflex-row-center{
+    display: flex;
+    width: 100%;
+    margin: 5px auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+.displayflex-row-spacebetween{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.displayflex-column-center-flexstart{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+
+.margin-down {
+    margin-bottom: 70px;
+}
+
+.displayflex-row-center-nomargin{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-absolute-top{
+    position: absolute;
+    top: 0px;
+}

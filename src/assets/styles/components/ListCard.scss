@@ -1,0 +1,124 @@
+@import "../Vars.scss";
+
+
+.listCard__container{
+width: 80%;
+min-height: 80px;
+margin: 10px auto;
+padding: 5px 10px;
+border-radius: 15px;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+box-shadow: 1px 2px 6px rgba(112, 112, 112, 0.462);
+background-color: white;
+}
+
+.listCard__list-provider{
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.listCard__list-type{
+  font-size: 12px;
+}
+
+.listCard__list-products{
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.listCard__list-button{
+  padding: 7px 10px;
+  background-color: $other6-color;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 0px 7px rgba(204, 204, 204, 0.493);
+}
+
+@media screen and (max-width: 694px){
+  .listCard__container{
+    width: 95%;
+    min-height: 80px;
+    margin: 10px auto;
+    padding: 5px 10px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 1px 2px 6px rgba(112, 112, 112, 0.462);
+    }
+    
+    .listCard__list-provider{
+      font-size: 14px;
+      font-weight: 600;
+    }
+    
+    .listCard__list-type{
+      font-size: 12px;
+    }
+    
+    .listCard__list-products{
+      font-size: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+    
+    .listCard__list-button{
+      padding: 7px 10px;
+      background-color: $other6-color;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      box-shadow: 0px 0px 7px rgba(204, 204, 204, 0.493);
+    }
+}
+
+@media screen and (max-width: 414px){
+  .listCard__container{
+    width: 95%;
+    min-height: 80px;
+    margin: 10px auto;
+    padding: 5px 10px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 1px 2px 6px rgba(112, 112, 112, 0.462);
+    }
+    
+    .listCard__list-provider{
+      font-size: 14px;
+      font-weight: 600;
+    }
+    
+    .listCard__list-type{
+      font-size: 12px;
+    }
+    
+    .listCard__list-products{
+      font-size: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+    
+    .listCard__list-button{
+      padding: 7px 10px;
+      background-color: $other6-color;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      box-shadow: 0px 0px 7px rgba(204, 204, 204, 0.493);
+    }
+}

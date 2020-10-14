@@ -1,0 +1,353 @@
+@import "../Vars.scss";
+
+.picking__icon-green{
+  color: $other6-color
+}
+.picking__icon-red{
+  color: $other7-color
+}
+
+.pickingProcess__container{
+  width: 80%;
+  margin: 0 auto 70px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 5px;
+  // background-color: #f7f7f7;
+  // border: 1px solid #d1d1d1;
+  // border-radius: 15px;
+  // box-shadow: 0px 5px 1px #d1d1d1;
+}
+.pickingProcess_Type{
+  color: $main2-color;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0 auto 0px auto;
+}
+.pickingProcess_number{
+  color: $main2-color;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 10px auto 0px auto;
+}
+.pickingProcess_notes{
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  margin: 10px auto 0px auto;
+  color: $other2-color;
+  padding: 3px 10px;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 1px 3px 12px rgba(112, 112, 112, 0.46)
+}
+
+.pickingitem__container{
+  box-shadow: 1px 3px 12px rgba(112, 112, 112, 0.462);
+  margin: 5px auto;
+  width: 100%;
+  border-radius: 10px;
+  padding-bottom: 10px;
+  background-color: #ffffff;
+}
+.pickingitem__goto{
+  margin: 0 auto;
+  padding: 5px 0;
+  color: white;
+  font-weight: 800;
+  font-size: 30px;
+  text-align: center;
+  background-color: $main2-color;
+  border-radius: 10px 10px 0 0 ;
+}
+.pickingitem__details-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5px;
+  
+}
+.pickingProcess__bin{
+  font-size: 15px;
+  font-weight: 800;
+  margin: 5px auto;
+  text-align: center;
+}
+.pickingProcess__product-Codes-Contianer{
+  margin: 5px auto;
+}
+.pickingProcess__product-SKU{
+  font-size: 22px;
+  font-weight: 600;
+  margin: 0 auto;
+  text-align: center;
+}
+.pickingProcess__product-UPC{
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.pickingProcess__product-name{
+  font-size: 18px;
+  font-weight: 400;
+  margin: 5px auto 0px 5px;
+  width: 370px;
+}
+
+.pickingProcess__product-qty{
+  font-size: 30px;
+  font-weight: 800;
+  margin: 0px auto;
+  text-align: center;
+  color: $other-color;
+}
+.pickingProcess__product-qty-picked{
+  font-size: 18px;
+  font-weight: 800;
+  margin: 5px auto;
+  text-align: center;
+  color: $other6-color;
+}
+
+.pickingProcess__form{
+  width: 100%;
+  margin: 10px auto 5px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.pickingProcess__form-input{
+  font-size: 16px;
+  width: 40%;
+  margin: 0px auto;
+  padding: 3px 5px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 1px 3px 12px rgba(112, 112, 112, 0.462);
+}
+
+.pickingProcess__form-inputQty{
+  font-size: 16px;
+  width: 10%;
+  margin: 0px auto;
+  padding: 3px 5px;
+  border-radius: 5px;
+  border: none;
+  text-align: center;
+  box-shadow: 1px 3px 12px rgba(112, 112, 112, 0.462);
+}
+.picking__button-pick{
+  background-color: $other6-color;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 5px 15px;
+  border-radius: 5px;
+  border: none;
+  margin: 0px auto;
+  width: 20%;
+  box-shadow: 1px 3px 12px rgba(112, 112, 112, 0.462);
+}
+.picking__button-pick-Action{
+  background-color: $other-color;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 5px 15px;
+  border-radius: 5px;
+  border: none;
+  margin: 0px auto;
+  width: 20%;
+  box-shadow: 1px 3px 12px rgba(112, 112, 112, 0.462);
+}
+
+@media screen and (max-width: 694px){
+  .pickingProcess__container{
+    width: 95%;
+  }
+  .pickingitem__container{
+    margin: 5px auto;
+    width: 100%;
+    border-radius: 10px;
+  }
+  .pickingitem__goto{
+    font-weight: 800;
+    font-size: 30px;
+  }
+
+  .pickingProcess__bin{
+    font-size: 15px;
+    font-weight: 700;
+    margin: 5px auto;
+    text-align: center;
+  }
+  
+  .pickingProcess__product-SKU{
+    font-size: 16px;
+    font-weight: 600;
+    margin: 5px auto;
+    text-align: center;
+  }
+  
+  .pickingProcess__product-name{
+    font-size: 15px;
+    font-weight: 400;
+    margin: 5px auto 0px 5px;
+    width: 280px;
+    // white-space: nowrap;
+    // overflow: hidden;
+  }
+  
+  .pickingProcess__product-qty{
+    font-size: 30px;
+    font-weight: 800;
+    margin: 0px auto;
+    text-align: center;
+    color: $other-color;
+  }
+  .pickingProcess__product-qty-picked{
+    font-size: 18px;
+    font-weight: 800;
+    margin: 5px auto;
+    text-align: center;
+    color: $other6-color;
+  }
+  
+  .pickingProcess__form{
+    width: 100%;
+    margin: 10px auto 5px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+   
+  .pickingProcess__form-input{
+    font-size: 16px;
+    width: 40%;
+    margin: 0px auto;
+    padding: 3px 5px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 1px 3px 12px rgba(112, 112, 112, 0.462);
+    }
+
+  .pickingProcess__form-inputQty{
+    font-size: 16px;
+    width: 10%;
+    margin: 0px auto;
+    padding: 3px 5px;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    box-shadow: 1px 3px 12px rgba(112, 112, 112, 0.462);
+    }
+  .picking__button-pick{
+    background-color: #4BB74D;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: none;
+    margin: 0px auto;
+    box-shadow: 1px 3px 12px rgba(112, 112, 112, 0.462);
+  }
+  }
+
+
+
+@media screen and (max-width: 414px){
+.pickingProcess__container{
+  width: 95%;
+}
+
+.pickingitem__container{
+  margin: 5px auto;
+  width: 100%;
+  border-radius: 10px;
+}
+.pickingitem__goto{
+  font-weight: 800;
+  font-size: 30px;
+}
+
+.pickingProcess__bin{
+  font-size: 14px;
+  font-weight: 700;
+  margin: 5px auto;
+  text-align: center;
+}
+
+.pickingProcess__product-SKU{
+  font-size: 18px;
+  font-weight: 600;
+  margin: 5px auto;
+  text-align: center;
+}
+
+.pickingProcess__product-name{
+  font-size: 12px;
+  font-weight: 400;
+  margin: 5px auto 0px 5px;
+  width: 200px;
+}
+
+.pickingProcess__product-qty{
+  font-size: 30px;
+  font-weight: 800;
+  margin: 0px auto;
+  text-align: center;
+  color: $other-color;
+}
+
+.pickingProcess__product-qty-picked{
+  font-size: 18px;
+  font-weight: 800;
+  margin: 5px auto;
+  text-align: center;
+  color: $other6-color;
+}
+.pickingProcess__form{
+  width: 100%;
+  margin: 10px auto 5px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.pickingProcess__form-input{
+  font-size: 16px;
+  width: 40%;
+  margin: 0px auto;
+  padding: 3px 5px;
+  border-radius: 5px;
+  box-shadow: 1px 3px 12px rgba(112, 112, 112, 0.462);
+}
+.pickingProcess__form-inputQty{
+  font-size: 16px;
+  width: 15%;
+  margin: 0px auto;
+  padding: 3px 5px;
+  border-radius: 5px;
+  border: none;
+  text-align: center;
+  box-shadow: 1px 3px 12px rgba(112, 112, 112, 0.462);
+}
+.picking__button-pick{
+  background-color: #4BB74D;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 5px 15px;
+  border-radius: 5px;
+  border: none;
+  margin: 0px auto;
+  box-shadow: 1px 3px 12px rgba(112, 112, 112, 0.462);
+}
+}

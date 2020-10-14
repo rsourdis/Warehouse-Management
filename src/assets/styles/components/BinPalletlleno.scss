@@ -1,0 +1,54 @@
+.binpallet{
+  text-decoration: none;
+  width: 100%;
+  text-align: center;
+}
+.binpalletlleno{
+  width: 140px;
+  height: 110px;
+  margin: 1px;
+}
+
+.binpalletvacio{
+  width: 140px;
+  height: 16px;
+  margin: 1px;
+}
+
+@media screen and (max-width: 694px){
+  .binpallet{
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+    margin: 2px;
+  }
+  .binpalletlleno{
+    width: 97px;
+    height: 80px;
+    margin: 0px;
+  }
+  
+  .binpalletvacio{
+    width: 90%;
+    height: 13px; 
+  }
+}
+
+@media screen and (max-width: 414px){
+  .binpallet{
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+    margin: 1px 0;
+  }
+  .binpalletlleno{
+    width: 71px;
+    height: 66px;
+    margin: 0px;
+  }
+  
+  .binpalletvacio{
+    width: 71px;
+    height: 11px;
+  }
+}

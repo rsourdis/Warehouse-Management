@@ -1,0 +1,36 @@
+@import "../Vars.scss";
+
+.manualLog_container{
+  width: 100%;
+  max-width: 500px;
+  margin: 3px auto;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.manualLog_form{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.manualLog_form-input{
+  width: 80vw;
+  padding: 3px 10px;
+  font-size: 16px;
+  margin: 5px auto;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 1px 3px 7px rgba(199, 199, 199, 0.438);
+}
+
+.manualLog_addicon{
+  color: $other6-color;
+}
+
+.manualLog_removeicon{
+  color: $other2-color;
+}

@@ -1,0 +1,382 @@
+@import "../Vars.scss";
+
+.line_solid {
+  border-top: 1px solid #bbb;
+  width: 80%;
+}
+
+.picking__icon-green{
+  color: $other6-color
+}
+.picking__icon-red{
+  color: $other7-color
+}
+
+.movementProcess__container{
+  width: 95%;
+  max-width: 500px;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 5px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 1px 3px 12px rgba(112, 112, 112, 0.462);
+}
+
+.movementitem__container{
+  box-shadow: 1px 2px 6px rgba(112, 112, 112, 0.462);
+  margin: 5px auto;
+  width: 100%;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: white;
+}
+.movement__details-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.movement_title{
+  font-size: 20px;
+  font-weight: 700;
+}
+.movement_bin{
+  font-size: 14px;
+  font-weight: 700;
+  margin: 5px auto;
+  text-align: center;
+}
+
+.movement_code{
+  font-size: 12px;
+  font-weight: 400;
+  margin: 0px auto 5px auto;
+  text-align: center;
+}
+
+.movement_name{
+  font-size: 12px;
+  font-weight: 500;
+  margin: 5px auto;
+  text-align: center;
+  width: 100%;
+}
+
+.movementProcess__product-qty{
+  font-size: 12px;
+  font-weight: 400;
+  margin: 5px auto;
+  text-align: center;
+}
+
+.movementProcess__form{
+  width: 100%;
+  margin: 10px auto 0px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.movement_form-input{
+  font-size: 16px;
+  width: 40%;
+  margin: 0px auto 10px auto;
+  padding: 3px 5px;
+  border-radius: 5px;
+  box-shadow: 1px 2px 4px rgba(112, 112, 112, 0.462);
+}
+.movement-btns-container{
+  margin: 5px auto;
+  display: flex;
+  width: 80%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.movement_form_button-picker{
+  background-color: $other-color;
+  color: white;
+  font-weight: 600;
+  width: 40%;
+  font-size: 16px;
+  padding: 7px 15px;
+  border-radius: 5px;
+  border: none;
+  margin: 10px auto;
+  box-shadow: 1px 2px 4px rgba(112, 112, 112, 0.462);
+}
+.movement_form_button-make{
+  background-color: #4BB74D;
+  color: white;
+  font-weight: 600;
+  width: 60%;
+  font-size: 19px;
+  padding: 7px 15px;
+  border-radius: 5px;
+  border: none;
+  margin: 10px auto;
+  box-shadow: 1px 2px 4px rgba(112, 112, 112, 0.462);
+}
+
+@media screen and (max-width: 694px){
+  .divider{
+    position: relative;
+    height: 1px;
+  }
+  .divider::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 5%;
+    right: 5%;
+    width: 90%;
+    height: 1px;
+    background-image: linear-gradient(to right, transparent, rgb(48,49,51), transparent);
+  }
+
+  .movementProcess__container{
+    width: 95%;
+    max-width: 500px;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 5px;
+    border-radius: 15px;
+  }
+  
+  .movementitem__container{
+    box-shadow: 1px 2px 6px rgba(112, 112, 112, 0.462);
+    margin: 5px auto;
+    width: 100%;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: white;
+  }
+  .movement__details-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  
+  .movement_title{
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .movement_bin{
+    font-size: 14px;
+    font-weight: 700;
+    margin: 5px auto;
+    text-align: center;
+  }
+  
+  .movement_code{
+    font-size: 12px;
+    font-weight: 400;
+    margin: 0px auto 5px auto;
+    text-align: center;
+  }
+  
+  .movement_name{
+    font-size: 12px;
+    font-weight: 500;
+    margin: 5px auto;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .movementProcess__product-qty{
+    font-size: 12px;
+    font-weight: 400;
+    margin: 5px auto;
+    text-align: center;
+  }
+  
+  .movementProcess__form{
+    width: 100%;
+    margin: 10px auto 0px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .movement_form-input{
+    font-size: 16px;
+    width: 40%;
+    margin: 0px auto 10px auto;
+    padding: 3px 5px;
+    border-radius: 5px;
+    box-shadow: 1px 2px 4px rgba(112, 112, 112, 0.462);
+  }
+  .movement-btns-container{
+    margin: 5px auto;
+    display: flex;
+    width: 80%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .movement_form_button-picker{
+    background-color: $other-color;
+    color: white;
+    font-weight: 600;
+    width: 40%;
+    font-size: 16px;
+    padding: 7px 15px;
+    border-radius: 5px;
+    border: none;
+    margin: 10px auto;
+    box-shadow: 1px 2px 4px rgba(112, 112, 112, 0.462);
+  }
+  .movement_form_button-make{
+    background-color: #4BB74D;
+    color: white;
+    font-weight: 600;
+    width: 60%;
+    font-size: 19px;
+    padding: 7px 15px;
+    border-radius: 5px;
+    border: none;
+    margin: 10px auto;
+    box-shadow: 1px 2px 4px rgba(112, 112, 112, 0.462);
+  }
+  }
+
+
+
+@media screen and (max-width: 414px){
+
+  .divider{
+    position: relative;
+    height: 1px;
+  }
+  .divider::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 5%;
+    right: 5%;
+    width: 90%;
+    height: 1px;
+    background-image: linear-gradient(to right, transparent, rgb(48,49,51), transparent);
+  }
+
+.movementProcess__container{
+  width: 95%;
+  max-width: 500px;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 5px;
+  border-radius: 15px;
+}
+
+.movementitem__container{
+  box-shadow: 1px 2px 6px rgba(112, 112, 112, 0.462);
+  margin: 5px auto;
+  width: 100%;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: white;
+}
+.movement__details-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.movement_title{
+  font-size: 20px;
+  font-weight: 700;
+}
+.movement_bin{
+  font-size: 14px;
+  font-weight: 700;
+  margin: 5px auto;
+  text-align: center;
+}
+
+.movement_code{
+  font-size: 12px;
+  font-weight: 400;
+  margin: 0px auto 5px auto;
+  text-align: center;
+}
+
+.movement_name{
+  font-size: 12px;
+  font-weight: 500;
+  margin: 5px auto;
+  text-align: center;
+  width: 100%;
+}
+
+.movementProcess__product-qty{
+  font-size: 12px;
+  font-weight: 400;
+  margin: 5px auto;
+  text-align: center;
+}
+
+.movementProcess__form{
+  width: 100%;
+  margin: 10px auto 0px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.movement_form-input{
+  font-size: 16px;
+  width: 40%;
+  margin: 0px auto 10px auto;
+  padding: 3px 5px;
+  border-radius: 5px;
+  box-shadow: 1px 2px 4px rgba(112, 112, 112, 0.462);
+}
+.movement-btns-container{
+  margin: 5px auto;
+  display: flex;
+  width: 80%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.movement_form_button-picker{
+  background-color: $other-color;
+  color: white;
+  font-weight: 600;
+  width: 40%;
+  font-size: 16px;
+  padding: 7px 15px;
+  border-radius: 5px;
+  border: none;
+  margin: 10px auto;
+  box-shadow: 1px 2px 4px rgba(112, 112, 112, 0.462);
+}
+.movement_form_button-make{
+  background-color: #4BB74D;
+  color: white;
+  font-weight: 600;
+  width: 60%;
+  font-size: 19px;
+  padding: 7px 15px;
+  border-radius: 5px;
+  border: none;
+  margin: 10px auto;
+  box-shadow: 1px 2px 4px rgba(112, 112, 112, 0.462);
+}
+}

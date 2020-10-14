@@ -1,0 +1,78 @@
+@import "../Vars.scss";
+
+
+.sectionCard__container{
+width: 95%;
+max-width: 500px;
+min-height: 50px;
+margin: 5px auto;
+padding: 5px 10px;
+border-radius: 15px;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+box-shadow: 1px 3px 12px rgba(112, 112, 112, 0.462);
+background-color: white;
+}
+
+.sectionCard__container-details{
+    width: 100%;
+    padding-left: 10px;
+}
+.sectionCard__img{
+  max-height: 80px;
+}
+
+.sectionCard__list-provider{
+  font-size: 16px;
+  width: 100%;
+  font-weight: 600;
+}
+
+.sectionCard__list-code{
+  font-size: 16px;
+}
+
+.sectionCard__list-qty{
+  font-size: 16px;
+  font-weight: 500;
+  background-color: #4682b4;
+  color: white;
+  padding: 3px 5px;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+// #4682b4
+
+.sectionCard__list-button{
+  padding: 7px 10px;
+  font-size: 16px;
+  min-width: 20%;
+  margin: 0 5px;
+  font-weight: 700;
+  background-color: $other6-color;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 1px 3px 12px rgba(112, 112, 112, 0.462);
+}
+
+.sectionCard__list-button-red{
+  padding: 7px 10px;
+  margin: 0 5px;
+  font-weight: 700;
+  background-color: #3ba33c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 1px 3px 12px rgba(112, 112, 112, 0.462);
+}
+.sectionCard__container-details-qtycode{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
+}
